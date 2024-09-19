@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: Location
+metadata:
+  name: parasol-catalog-info
+  description: List of URLs to import as catalog-info.yaml files for the Parasol entities such as domains, systems, etc.
+spec:
+  type: url
+  targets:
+    - systems/parasol.yaml
+    - domains/redhat-pe.yaml
+    - groups/redhat-pe-workshop.yaml

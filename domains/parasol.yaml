@@ -1,0 +1,13 @@
+apiVersion: backstage.io/v1alpha1
+kind: Domain
+metadata:
+  name: parasol
+  namespace: default
+  description: "The Parasol domain encompassing all systems and components of the Parasol Insurance suite"
+  tags:
+    - domain
+    - redhat
+    - parasol
+spec:
+  owner: default/redhat-pe-workshop
+  lifecycle: production
