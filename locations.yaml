@@ -3,8 +3,6 @@ kind: Location
 metadata:
   name: parasol-catalog-info
   description: List of URLs to import as catalog-info.yaml files for the Parasol entities such as domains, systems, etc.
-  annotations:
-    github.com/project-slug: rhdh-demo-gh/catalog-info
 spec:
   type: url
   targets:
