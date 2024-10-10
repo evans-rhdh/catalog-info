@@ -8,6 +8,6 @@ metadata:
     - parasol
     - redhat
 spec:
-  domain: parasol-store
+  domain: parasol
   owner: redhat-pe-workshop
   lifecycle: experimental
