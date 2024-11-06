@@ -9,3 +9,4 @@ spec:
     - systems/parasol.yaml
     - domains/parasol.yaml
     - groups/redhat-pe-workshop.yaml
+    - api/openai.yaml
